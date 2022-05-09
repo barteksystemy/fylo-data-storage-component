@@ -24,7 +24,7 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin-top: 105px;
+  margin-top: 85px;
   margin-left: -280px;
 }
 .attribution a {
@@ -127,6 +127,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 90%;
 }
 
 .gradient {
@@ -168,7 +169,6 @@ body {
   background-color: white;
   margin-left: 255px;
   border-radius: 0.8rem;
-  border: 2px solid black;
   margin-top: -145px;
   display: flex;
   justify-content: center;
@@ -180,26 +180,10 @@ body {
   height: 0;
   border-top: 31px solid white;
   border-left: 31px solid transparent;
-  margin-left: 402px;
-  margin-top: -36px;
+  margin-left: 404px;
+  margin-top: -12px;
 }
 
-.triangle-background {
-  width: 0;
-  height: 0;
-  border-top: 35px solid black;
-  border-left: 35px solid transparent;
-  margin-left: 400px;
-  margin-top: -11px;
-}
-
-.white-square {
-  width: 20px;
-  height: 20px;
-  background-color: white;
-  margin-left: 400px;
-  margin-top: -41px;
-}
 
 .text5 {
   font-size: 35px;
