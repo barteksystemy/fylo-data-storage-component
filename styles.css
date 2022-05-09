@@ -15,6 +15,10 @@
   --very-dark-blue: hsl(229, 57%, 11%);
 }
 
+@media only screen and (min-width: 375px) {
+  
+}
+
 body {
   font-family: "Raleway", sans-serif;
   color: var(--pale-blue);
