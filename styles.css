@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --gradient1: hsl(6, 100%, 80%);
+  --gradient2: hsl(335, 100%, 65%);
+  --pale-blue: hsl(243, 100%, 93%);
+  --grayish-blue: hsl(229, 7%, 55%);
+  --dark-blue: hsl(228, 56%, 26%);
+  --very-dark-blue: hsl(229, 57%, 11%);
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: var(--pale-blue);
+  font-size: 14px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 105px;
+  margin-left: -280px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container {
+  background-color: var(--very-dark-blue);
+  background-image: url(./images/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container1 {
+  width: 290px;
+  height: 152px;
+  background-color: var(--dark-blue);
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 6rem;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+}
+
+#logo {
+  width: 101px;
+  height: 30px;
+}
+
+.icon1 {
+  width: 40px;
+  height: 40px;
+  background-color: var(--very-dark-blue);
+  margin-top: 60px;
+  margin-left: -105px;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon2 {
+  width: 40px;
+  height: 40px;
+  background-color: var(--very-dark-blue);
+  margin-top: 60px;
+  margin-left: 15px;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon3 {
+  width: 40px;
+  height: 40px;
+  background-color: var(--very-dark-blue);
+  margin-top: 60px;
+  margin-left: 15px;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container2 {
+  width: 500px;
+  height: 120px;
+  background-color: var(--dark-blue);
+  border-radius: 0.5rem;
+  margin-left: 25px;
+  margin-top: 33px;
+  padding: 30px;
+  flex-wrap: wrap;
+  font-size: 12px;
+}
+
+.text1 {
+  font-weight: 300;
+}
+
+.text2 {
+  font-weight: 600;
+}
+
+.bar {
+  width: 440px;
+  height: 20px;
+  border-radius: 1rem;
+  margin-top: 15px;
+  background-color: var(--very-dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gradient {
+  width: 330px;
+  height: 14px;
+  background-image: linear-gradient(
+    to right,
+    hsl(6, 100%, 80%),
+    hsl(335, 100%, 65%)
+  );
+  border-radius: 0.5rem;
+  margin-left: -103px;
+  display: flex;
+  align-items: center;
+}
+
+.white-circle {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 1rem;
+  margin-left: 318px;
+}
+
+.text3 {
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+.text4 {
+  font-weight: 700;
+  margin-left: 392px;
+  margin-top: -12px;
+}
+
+.cloud {
+  width: 180px;
+  height: 70px;
+  background-color: white;
+  margin-left: 255px;
+  border-radius: 0.8rem;
+  border: 2px solid black;
+  margin-top: -145px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 31px solid white;
+  border-left: 31px solid transparent;
+  margin-left: 402px;
+  margin-top: -36px;
+}
+
+.triangle-background {
+  width: 0;
+  height: 0;
+  border-top: 35px solid black;
+  border-left: 35px solid transparent;
+  margin-left: 400px;
+  margin-top: -11px;
+}
+
+.white-square {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  margin-left: 400px;
+  margin-top: -41px;
+}
+
+.text5 {
+  font-size: 35px;
+  color: black;
+  font-weight: 700;
+}
+
+.text6 {
+  font-weight: 700;
+  margin-left: 15px;
+  color: var(--grayish-blue);
+}
